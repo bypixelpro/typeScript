@@ -1,0 +1,16 @@
+{
+    "files": [
+        "assets/ts/main.ts"
+    ],
+    "compilerOptions": {
+        "target": "es2015",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
