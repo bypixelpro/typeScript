@@ -31,7 +31,7 @@ npm run start
 http://localhost/Dani/typeScript/dist/
 ```
 
-## Acerca del curso
+# Todo lo que vas a aprender en el curso
 
 ## Definición de TypeScript
 
@@ -52,6 +52,39 @@ Una de las mejores incorporaciones que incluyen en el lenguaje es el tipado fuer
 Podéis ejecutar y hacer pruebas directamente en la página https://www.typescriptlang.org/play/, todo se compila simplemente haciendo click en __RUN__, además muestra errores como si estuviéramos trabajando directamente en nuestro editor de código, esto está bien para hacer pruebas rápidas pero lo suyo es hacerlo en nuestro editor.
 
 ## Instalación y configuración
+
+El archivo package.json
+```
+{
+  "name": "typescript-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "test"
+  },
+  "author": "Daniel Ariza",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babelify": "^7.3.0",
+    "browserify": "^14.4.0",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-typescript": "^3.2.1",
+    "tsify": "^3.0.1",
+    "typescript": "^2.4.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.2.12",
+    "jquery": "^3.2.1"
+  }
+}
+```
 
 #### Gulp
 
