@@ -13,6 +13,10 @@ C:\xampp\htdocs\
 ```
 git clone https://github.com/bypixelpro/typeScript.git /typeScript
 ```
+- Instalamos dependencias
+``` 
+npm install
+```
 - Iniciamos el proyecto
 ``` 
 npm run start
