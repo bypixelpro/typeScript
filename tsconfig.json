@@ -1,10 +1,18 @@
 {
     "files": [
+<<<<<<< HEAD
         "assets/ts/main.ts"
     ],
     "compilerOptions": {
         "target": "es2015",
         "noImplicitAny": true,
+=======
+        "src/main.ts"
+    ],
+    "compilerOptions": {
+        "target": "es2015",
+        "noImplicitAny": true, // Show errors to compile
+>>>>>>> desarrollo
         "removeComments": true,
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
